@@ -1,8 +1,7 @@
-Crypto Tracker - Real-Time Cryptocurrency Dashboard 
-
 Hey there! 
 
-This project is a cryptocurrency tracker built with React, Bootstrap, and the CoinGecko API. It's designed to give you a quick and easy way to keep an eye on the crypto market, track your favorite coins, and dive into their historical data.
+This project is a cryptocurrency tracker built with React, Bootstrap, and the CoinGecko API.
+It's designed to give you a quick and easy way to keep an eye on the crypto market, track crypto coins and dive into historical data.
 
 Features:
 
@@ -60,17 +59,16 @@ crypto-tracker/
 ├── package.json          
 └── README.md             
 
-Future Improvements
+Future Improvements:
 
 Implement authentication to save watchlist.
 Add more advanced chart options and technical indicators.
 Explore caching API responses for better performance.
 add more detailed information to the home page cards.
 
-
- Contributing
-
 Feel free to fork this repo and submit pull requests. I'm always open to suggestions and improvements!
+
+Thanks!
 
 Created by:
 
