@@ -1,0 +1,79 @@
+/* src/index.css */
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .crypto-card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .crypto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .crypto-image {
+    max-height: 150px;
+    object-fit: contain;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .price {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .crypto-details-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .crypto-details-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .pagination .page-link {
+    color: #007bff;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .crypto-image {
+      max-height: 100px;
+    }
+  }
